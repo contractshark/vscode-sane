@@ -1,0 +1,51 @@
+{
+    "name": "contractshark-vscode-base",
+    "displayName": "ContractShark VSCode Sane Extenstions",
+    "description": "ContractShark VSCode Sane Defaults/Interop Extenstions",
+    "version": "0.0.1",
+    "author": {
+        "name": "Sam Bacha"
+    },
+    "publisher": "ContractShark",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/contractshark/vscode-sane,git"
+    },
+    "icon": "icon.png",
+    "keywords": [
+        "syntax",
+        "textmate",
+        "highlighting",
+        "coloring",
+        "color",
+        "web3",
+        "ethereum",
+        "truffle",
+        "hardhat",
+        "foundry"
+    ],
+    "license": "BSD-2",
+    "bugs": {
+        "url": "https://github.com/contractshark/vscode-sane/issues"
+    },
+    "homepage": "https://github.com/contractshark/vscode-sane",
+        "engines": {
+        "vscode": "^1.39.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "temitope1909.dotenv-intellisense",
+        "wenfangdu.jump",
+        "peaceshi.syntax-highlight",
+        "eamodio.gitlens",
+        "jeff-hykin.better-js-syntax",
+        "jeff-hykin.better-cpp-syntax",
+        "bbenoist.nix",
+        "dustypomerleau.rust-syntax"
+    ]
+}
